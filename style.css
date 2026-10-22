@@ -49,6 +49,10 @@ nav{
 a{
     text-decoration: none;
     padding: 0.2rem;
+    color: #b33927;
+}
+
+nav a{
     color: white;
 }
 
