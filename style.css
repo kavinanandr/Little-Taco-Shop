@@ -43,11 +43,13 @@ nav{
     justify-content: space-evenly;
     border-bottom: 1px solid black;
     padding: 1px;
+    background-color: #b33927;
 }
 
 a{
     text-decoration: none;
     padding: 0.2rem;
+    color: white;
 }
 
 a:hover, a:focus{
