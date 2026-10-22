@@ -12,19 +12,15 @@ html{
 }
 
 body{
-    background-image:linear-gradient(hsl(48, 100%, 70%), hsla(48, 100%, 70%, 0.763));
+   
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: center;*/
+    background-color: white;
+    min-height: 100vh;
     
 }
 
-.container{
-    min-width: 100vw;
-    border: 1px solid black;
-    background-color: white;
-    min-height: 100vh;
-}
 
 .top{
     position:sticky;
@@ -45,6 +41,12 @@ nav{
     justify-content: space-evenly;
     border-bottom: 1px solid black;
     padding: 1px;
+}
+
+a{
+    text-decoration: none;
+    padding: 0.2rem;
+    color: black;
 }
 
 a:hover, a:focus{
