@@ -17,8 +17,7 @@ body{
 
 .top{
     position:sticky;
-    top:0;
-    
+    top:0;   
 }
 
 h1{
@@ -140,7 +139,6 @@ footer{
 
     input, textarea{
         width: 75vw;
-
     }
     
 }
