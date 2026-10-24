@@ -59,22 +59,17 @@ img{
     height: auto;
 }
 
-h2{
+h2,h3{
     margin: 1rem;
     font-family: "Fugaz One", cursive;
 }
 
-p{
+p, details, summary{
     margin: 1rem;
 }
 
 address{
     margin: 1rem;
-}
-
-h3{
-    margin:1rem;
-    font-family: "Fugaz One", cursive;
 }
 
 tr{
@@ -97,12 +92,13 @@ table{
 
 caption{
     min-height: 80%;
+    padding: 1rem;
+    font-weight: bold;
 }
 
 .table{
     display: flex;
     justify-content: center;
-    ;
 }
 
 form{
@@ -118,12 +114,14 @@ input{
 textarea{
     margin-top:1rem;
     width: 100%;
-    padding:25%;
+    padding:4rem;
 }
 
 button{
     margin: 0rem 1rem;
     padding: 0.5rem;
+    background-color: #b33927;
+    color: white;
 }
 
 footer{
@@ -136,8 +134,48 @@ footer{
 /*tablet design*/
 @media screen and (min-width: 768px) {
 
-    h1,h2,h3,p{
+    label, input{
         font-size: 1rem;
+    } 
+
+    input, textarea{
+        width: 75vw;
     }
     
+}
+
+/*laptop design*/
+@media screen and (min-width: 1024px) {
+    
+     h1,h2,h3{
+        font-size: 2rem;
+    }
+
+    p, details, summary{
+        font-size: 1.5rem;
+    }
+
+    a{
+        font-size: 1.5rem;
+    }
+
+    table{
+        font-size: 1.5rem;
+    }
+
+    label, input{
+        font-size: 1.5rem;
+    }
+
+    input, textarea{
+        width: 50vw;
+    }
+
+
+    button{
+        padding: 1rem;
+        font-size: inherit;
+    }
+
+
 }
