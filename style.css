@@ -134,12 +134,13 @@ footer{
 /*tablet design*/
 @media screen and (min-width: 768px) {
 
-    label, input{
+    label, input, textarea{
         font-size: 1rem;
     } 
 
     input, textarea{
         width: 75vw;
+
     }
     
 }
@@ -163,7 +164,7 @@ footer{
         font-size: 1.5rem;
     }
 
-    label, input{
+    label, input, textarea{
         font-size: 1.5rem;
     }
 
