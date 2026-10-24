@@ -146,15 +146,11 @@ footer{
 /*laptop design*/
 @media screen and (min-width: 1024px) {
     
-     h1,h2,h3{
+     h1, h2, h3, a{
         font-size: 2rem;
     }
 
-    p, details, summary, address{
-        font-size: 1.5rem;
-    }
-
-    a{
+    p, details,s ummary, address{
         font-size: 1.5rem;
     }
 
